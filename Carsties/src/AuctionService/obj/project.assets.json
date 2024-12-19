@@ -2577,24 +2577,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/oscarlagatta/.nuget/packages/": {}
+    "C:\\Users\\Oscar-Lagatta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/oscarlagatta/Documents/sandbox/demo/Carsties/src/AuctionService/AuctionService.csproj",
+      "projectUniqueName": "D:\\sandbox\\demo\\car-auction\\Carsties\\src\\AuctionService\\AuctionService.csproj",
       "projectName": "AuctionService",
-      "projectPath": "/Users/oscarlagatta/Documents/sandbox/demo/Carsties/src/AuctionService/AuctionService.csproj",
-      "packagesPath": "/Users/oscarlagatta/.nuget/packages/",
-      "outputPath": "/Users/oscarlagatta/Documents/sandbox/demo/Carsties/src/AuctionService/obj/",
+      "projectPath": "D:\\sandbox\\demo\\car-auction\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+      "packagesPath": "C:\\Users\\Oscar-Lagatta\\.nuget\\packages\\",
+      "outputPath": "D:\\sandbox\\demo\\car-auction\\Carsties\\src\\AuctionService\\obj\\",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "/Users/oscarlagatta/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Oscar-Lagatta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2607,11 +2610,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2656,7 +2654,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -14,7 +14,6 @@ public class Auction
     
     public int? CurrentHighBid   { get; set; }
     
-    // using insists that we use Utc values for the date time. 
     /// <summary>
     /// Gets or sets the creation timestamp of the auction entity.
     /// This property is initialized to the current UTC time when the auction is instantiated.

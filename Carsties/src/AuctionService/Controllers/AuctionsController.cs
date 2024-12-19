@@ -16,8 +16,8 @@ public class AuctionsController: ControllerBase
 
     public AuctionsController(AuctionDbContext context, IMapper mapper)
     {
-        this._context = context;
-        this._mapper = mapper;
+        _context = context;
+        _mapper = mapper;
     }
 
     [HttpGet]
@@ -31,7 +31,7 @@ public class AuctionsController: ControllerBase
         return _mapper.Map<List<AuctionDto>>(auctions);
     }
 
-    [HttpGet("{id}")]
+    [HttpGet("{id:guid}")]
     public async Task<ActionResult<AuctionDto>> GetAuctionById(Guid id)
     {
         var auction = await _context.Auctions
