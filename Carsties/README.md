@@ -221,3 +221,31 @@ bash-5.2$ docker-compose up -d
 ✔ Container carsties-mongodb-1   Started                                                                                                                                                                                  0.6s
 ✔ Container carsties-postgres-1  Running      
 ```
+
+
+```javascript
+ Carsties   main ≡  ?1 ~5    dotnet new classlib -o src/Contracts
+The template "Class Library" was created successfully.
+
+Processing post-creation actions...
+Restoring /Users/oscarlagatta/Documents/sandbox/demo/Carsties/src/Contracts/Contracts.csproj:
+  Determining projects to restore...
+  Restored /Users/oscarlagatta/Documents/sandbox/demo/Carsties/src/Contracts/Contracts.csproj (in 27 ms).
+Restore succeeded.
+
+
+  Carsties   main ≡  ?2 ~5    dotnet sln add src/Contracts
+
+Project `src/Contracts/Contracts.csproj` added to the solution.
+  Carsties   main ≡  ?2 ~6    
+  Carsties   main ≡  ?2 ~6    cd src   
+  src   main ≡  ?2 ~6    cd AuctionService 
+  AuctionService   main ≡  ?2 ~6    dotnet add reference ../../src/Contracts 
+Reference `..\Contracts\Contracts.csproj` added to the project.
+  AuctionService   main ≡  ?2 ~6    cd ..
+  src   main ≡  ?2 ~6    cd SearchService 
+  SearchService   main ≡  ?2 ~6    dotnet add reference ../../src/Contracts
+Reference `..\Contracts\Contracts.csproj` added to the project.
+
+
+```
